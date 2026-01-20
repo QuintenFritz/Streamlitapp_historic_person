@@ -16,7 +16,7 @@ HISTORIC_PEOPLE = [
 ]
 
 # -----------------------------
-# Session state
+# Session state en laat een scheet
 # -----------------------------
 if "person" not in st.session_state:
     st.session_state.person = random.choice(HISTORIC_PEOPLE)
